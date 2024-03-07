@@ -1,0 +1,21 @@
+{
+  "name": "workout",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://goldenrash-lab.github.io/workout-site",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "jquery": "^3.7.1",
+    "modern-normalize": "^2.0.0"
+  }
+}
