@@ -53,6 +53,7 @@ body {
   margin-top: 65px;
 }
 .header__logo {
+  z-index: 99;
   max-width: 237px;
   padding: 30px 24px 38px;
   border: 2px solid #f2f2f2;
